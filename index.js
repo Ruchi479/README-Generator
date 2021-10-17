@@ -18,29 +18,45 @@ const questions = [
     {
         type: "input",
         name: "ProjectTitle",
-        message: "What is your Project's name?",
+        message: "Please enter the title of your Project?",
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            } else {
+                console.log('Please enter the Project Title');
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "ProjectDescription",
         message: "Please write a short description of your project?",
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            } else {
+                console.log('Please enter a Project Description');
+                return false;
+            }
+        }
     },
     {
         type: "list",
-        name: "Licence",
-        message: "What kind of Licence should your Project have?",
+        name: "license",
+        message: "What kind of License should your Project have?",
         choices: 
         [   {
                 name: "MIT",
             },
             {
-                name: "APACHE 2.0"
-            },
-            {
                 name: "GPL 3.0"
             },
             {
-                name: "BSD 3"
+                name: "Apache Licence 2.0"
+            },
+            {
+                name: "Mozilla Public License 2.0"
             },
             {
                 name: "None"
@@ -49,30 +65,35 @@ const questions = [
     },
     {
         type: "input",
-        name: "Dependencies",
-        message: "What command should be run to install dependencies?",
+        name: "Installation",
+        message: "Please enter how to install this Project?",
     },
     {
         type: "input",
         name: "Test",
-        message: "What command should be run to run tests?",
+        message: "How do you test this Project?",
     },
     {
         type: "input",
-        name: "Repository",
-        message: "What does the user need to know about using the repo?",
+        name: "Usage",
+        message: "How do you use this Project?",
     },
     {
         type: "input",
-        name: "Contribution",
-        message: "What does the user need to know about contributing to the repo?",
+        name: "Contributions",
+        message: "Were there any contributions and/or collaborators to your Project?",
+    },
+    {
+        type: "input",
+        name: "FAQ1",
+        message: "Please reach us here if you have any additional questions",
     },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err): console.log("You have successfully created a Readme file")
+    err ? console.error(err): console.log("New README file created with success")
     );
 }
 
@@ -81,7 +102,8 @@ function init() {
     inquirer.prompt(questions).then((userInput) => {
         console.log(userInput);
         writeToFile("Readme.md", generateMarkdown(userInput));
-    });
+    })
+    //.catch((err) => console.error(err));
 }
 
 // Function call to initialize app
