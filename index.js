@@ -83,7 +83,7 @@ const questions = [
     {
         type: "input",
         name: "Contributions",
-        message: "Were there any contributions and/or collaborators to your Project?",
+        message: "Who contributed in making this project?",
     },
     {
         type: "input",

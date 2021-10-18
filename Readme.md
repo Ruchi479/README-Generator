@@ -1,11 +1,11 @@
-# Readme Generator
+# **Readme Generator**
 
   ![License](https://img.shields.io/badge/license-Apache%202.0-red.svg)
 
-  ##ProjectDescription
-  This is a command line interface (CLI) application that creates a well, structured readme file based on user inputs.
+  ## ProjectDescription
+  This project aims to allow the user to create a README.md file using the integrated terminal, node.js, npm inquirer and file system.
 
-  ##Table of Contents:
+  ## Table of Contents:
   * [ProjectDescription](#ProjectDescription)
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -16,29 +16,29 @@
   * [Questions](#FAQ1)
 
 
-  ##Installation
-  npm install inqurier
+  ## Installation
+  npm i, node.js
 
 
-  ##Usage
-  Just follow the prompts to create a README.md file.
+  ## Usage
+  Enter node index.js in the terminal and follow the prompt to create a Readme file.
 
 
-  ##License
+  ## License
   
-   ![License](https://img.shields.io/badge/license-Apache%202.0-red.svg)
+  ![License](https://img.shields.io/badge/license-Apache%202.0-red.svg)
   This application is covered by the Apache Licence 2.0 license.
 
 
-  ##Contributing
-  one
+  ## Contributing
+  No
 
 
-  ##Tests
-  npm Readme Generator
+  ## Tests
+  npm Projectname
 
 
-  ##Questions
+  ## Questions
   Find me on GitHub: Ruchi479 </br>
   If you have any question Please send an email to ruchisaini.0404@gmail.com or visit to review code https://github.com/Ruchi479
   
