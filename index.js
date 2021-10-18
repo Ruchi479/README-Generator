@@ -3,6 +3,8 @@ const inquirer = require('inquirer');
 const fs =require('fs');
 const generateMarkdown = require("./utils/generateMarkdown")
 
+console.log('Hello! Time to create a README.md file for your project!');
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -93,7 +95,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err): console.log("New README file created with success")
+    err ? console.log(err): console.log("New README file created with success")
     );
 }
 
