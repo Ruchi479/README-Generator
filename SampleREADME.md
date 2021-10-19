@@ -1,9 +1,9 @@
-# **Readme Generator**
+# Readme Generator
 
   ![License](https://img.shields.io/badge/license-Apache%202.0-red.svg)
 
   ## ProjectDescription
-  This project aims to allow the user to create a README.md file using the integrated terminal, node.js, npm inquirer and file system.
+  This project aim to allow the user to create a Readme file using the Node.js, npm inquirer and File System(fs).
 
   ## Table of Contents:
   * [ProjectDescription](#ProjectDescription)
@@ -17,25 +17,24 @@
 
 
   ## Installation
-  npm i, node.js
+  Clone the repository, install the dependencies with the command "npm install" and run the node in terminal.
 
 
   ## Usage
-  Enter node index.js in the terminal and follow the prompt to create a Readme file.
+  Run the node "node index.js" in the terminal and answer the prompt to create a Readme file and you can also preview the Readme file.
 
 
   ## License
-  
-  ![License](https://img.shields.io/badge/license-Apache%202.0-red.svg)
+  ![License](https://img.shields.io/badge/license-Apache%202.0-red.svg) </br>
   This application is covered by the Apache Licence 2.0 license.
 
 
   ## Contributing
-  No
+  Please contribute using the GitHub flow. Create a branch, add commits and open a pull request.
 
 
   ## Tests
-  npm Projectname
+  Please make sure to update the tests as appropriate. Currently there are no tests.
 
 
   ## Questions

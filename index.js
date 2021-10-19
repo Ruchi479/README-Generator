@@ -103,7 +103,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((userInput) => {
         console.log(userInput);
-        writeToFile("Readme.md", generateMarkdown(userInput));
+        writeToFile("SampleREADME.md", generateMarkdown(userInput));
     })
     //.catch((err) => console.error(err));
 }
