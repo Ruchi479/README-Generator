@@ -10,10 +10,9 @@
   * [Installation](#Installation)
   * [Usage](#Usage)
   * [License](#license)
-  * [Contributing](#Contributions)
-  * [Testing](#Test)
-  * [Github Information](#GitHubUsername)
-  * [Questions](#FAQ1)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
 
   ## Installation
@@ -21,7 +20,7 @@
 
 
   ## Usage
-  Run the node "node index.js" in the terminal and answer the prompt to create a Readme file and you can also preview the Readme file.
+   Run the node "node index.js" in the terminal and answer the prompt to create a Readme file and you can also preview the Readme file.
 
 
   ## License
@@ -30,11 +29,11 @@
 
 
   ## Contributing
-  Please contribute using the GitHub flow. Create a branch, add commits and open a pull request.
+  Please contribute using GitHub flow. Create a branch, add commits and open a pull request.
 
 
   ## Tests
-  Please make sure to update the tests as appropriate. Currently there are no tests.
+  Please make sure to update tests as appropriate. Currently there are no tests.
 
 
   ## Questions

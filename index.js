@@ -72,7 +72,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "Test",
+        name: "Tests",
         message: "How do you test this Project?",
     },
     {
@@ -82,12 +82,12 @@ const questions = [
     },
     {
         type: "input",
-        name: "Contributions",
+        name: "Contributing",
         message: "Who contributed in making this project?",
     },
     {
         type: "input",
-        name: "FAQ1",
+        name: "Questions",
         message: "Please reach us here if you have any additional questions",
     },
 ];
